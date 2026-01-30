@@ -1,0 +1,12 @@
+name: "BlackPaw Nomad Manager (Beta)"
+slug: "blackpaw_nomad_manager_beta"
+description: "Beta/RC channel for early testing"
+version: "0.1.0-beta.1"
+arch:
+  - amd64
+  - aarch64
+
+image: "dockerhubuser/blackpaw-nomad-manager-{arch}:beta"
+
+ingress: true
+ingress_port: 8099
