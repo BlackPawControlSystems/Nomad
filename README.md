@@ -1,1 +1,1 @@
-# blackpaw-nomad-haos-addons
+BlackPaw Nomad
