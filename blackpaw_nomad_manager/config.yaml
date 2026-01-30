@@ -1,0 +1,13 @@
+name: "BlackPaw Nomad Manager (Stable)"
+slug: "blackpaw_nomad_manager"
+description: "Stable release channel of the BlackPaw Nomad Manager/Installer"
+version: "0.1.0"
+arch:
+  - amd64
+  - aarch64
+
+# Pull prebuilt images (Home Assistant substitutes {arch})
+image: "dockerhubuser/blackpaw-nomad-manager-{arch}:0.1.0"
+
+ingress: true
+ingress_port: 8099
